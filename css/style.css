@@ -1,17 +1,9 @@
 .hero {
-  background: url("http://placehold.it/1900x450") no-repeat center center;
+  background: url("../img/image-6.jpg") no-repeat center center;
   background-size: cover;
   height: 50vh;
   overflow: hidden;
   z-index: 100;}
-  .hero h1 {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
 
 .row {
   max-width: 100%;
@@ -25,4 +17,24 @@
 .menu {
   z-index: 200;
   position: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.overlay h1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-300%);
+  -ms-transform: translateY(-300%);
+  transform: translateY(-300%); 
 }
