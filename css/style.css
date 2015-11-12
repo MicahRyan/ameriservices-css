@@ -10,6 +10,10 @@
   margin: 2rem;
 }
 
+.full {
+  margin: 0px;
+}
+
 .columns {
   padding: 0px;
   margin: 0px;
@@ -85,7 +89,8 @@
   background-color: #292c2f;
   text-align: center;
   font-size: 1.2rem;
-  padding: 4rem; }
+  padding: 4rem;
+  margin-top: 5rem; }
   .footer .inline-list a {
     display: inline-block;
     width: 2rem;
