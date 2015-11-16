@@ -155,6 +155,10 @@
   .footer-logo i {
     margin-right: 0.5rem; }
 
+.footer-row {
+  margin: 0;
+}
+
 
   /** Media Queries **/
   @media only screen and (min-width: 40.063em) {
