@@ -154,6 +154,14 @@
   .footer-logo i {
     margin-right: 0.5rem; }
 
+.column-wrapper {
+  margin-left: 4%;
+}
+
+.column-space {
+  margin: 1% 0;
+}
+
 
   /** Media Queries **/
   @media only screen and (min-width: 40.063em) {
