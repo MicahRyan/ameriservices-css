@@ -59,7 +59,8 @@
   overflow: hidden;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   color: #272727;
-  border-radius: 2px; }
+  border-radius: 2px;
+  margin: 0 1rem; }
   .card .title {
     line-height: 3rem;
     font-size: 1.5rem;
@@ -158,8 +159,8 @@
   margin-left: 4%;
 }
 
-.column-space {
-  margin: 1% 0;
+.space {
+  padding: 0 3rem;
 }
 
 
