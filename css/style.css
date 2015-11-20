@@ -36,7 +36,7 @@
   width: 100%;
   height: 100vh;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.8;
   overflow: hidden;
 }
 
@@ -48,6 +48,27 @@
   -webkit-transform: translateY(-300%);
   -ms-transform: translateY(-300%);
   transform: translateY(-300%); 
+}
+
+.overlay .text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  top: 20%;
+}
+
+.arrow-down {
+  background: url("../img/arrow_down.png");
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  top: 25%;
 }
 
 .service-box {
@@ -161,6 +182,82 @@
 
 .space {
   padding: 0 3rem;
+}
+
+/* Hang */
+@-webkit-keyframes hvr-hang {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+
+@keyframes hvr-hang {
+  0% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+
+@-webkit-keyframes hvr-hang-sink {
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+
+@keyframes hvr-hang-sink {
+  100% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+}
+
+.hvr-hang {
+  display: block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+  -webkit-animation-name: hvr-hang-sink, hvr-hang;
+  animation-name: hvr-hang-sink, hvr-hang;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 
 /* Icon Push */
@@ -411,6 +508,10 @@
   .top-bar-section ul li > a{
     font-size: 2rem;
     }
+
+  .overlay p {
+    top: 35%;
+  }
 }
 
 
