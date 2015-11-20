@@ -1812,7 +1812,7 @@ meta.foundation-mq-topbar {
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
   .top-bar.expanded {
-    background: transparent;
+    background: #03212e;
     height: auto; }
     .top-bar.expanded .title-area {
       background: #333333; }

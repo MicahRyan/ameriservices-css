@@ -358,6 +358,61 @@
   .social-icons {
     top: -35px; } }
 
+/** Menu Font Media Query**/
+@media only screen and (max-width: 1025px) {
+  .top-bar-section ul li > a{
+    font-size: 1rem;
+    }
+
+  .top-bar {
+    height: 4rem;
+    padding-top: 1rem;
+  }
+
+  .logo {
+    width: 150px;
+    margin-top: -0.5rem; }
+}
+
+@media only screen and (max-width: 890px) {
+  .top-bar-section ul li > a{
+    font-size: .8rem;
+    }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+   .logo {
+    width: 130px; }
+
+    .top-bar-section ul li > a{
+      font-size: .7rem;
+      }
+}
+
+@media only screen and (max-width: 640px) {
+   .top-bar {
+    height: 6rem;
+    padding-top: 3rem;
+    position: relative; }
+
+  .social-icons {
+    position: absolute;
+    right: 0;
+    top: -45px; }
+
+  .logo {
+    width: 270px;
+    margin-top: -2.6rem; } 
+
+  .top-bar-section ul li > a{
+    font-size: 2rem;
+    }
+}
+
 
 
 
