@@ -1,0 +1,99 @@
+
+<!-- saved from url=(0074)http://zurb.com/building-blocks/building-block-templates/foundation-5.html -->
+<html ng-app="iframeApp" ng-controller="FoundationSitesIframeController" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta class="foundation-mq-small"><meta class="foundation-mq-small-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-medium-only"><meta class="foundation-mq-large"><meta class="foundation-mq-large-only"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-xlarge-only"><meta class="foundation-mq-xxlarge"><meta class="foundation-data-attribute-namespace"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+<link href="normalize.css" media="screen" rel="stylesheet">
+<link href="foundation.css" media="screen" rel="stylesheet">
+<link href="foundation-icons.css" media="screen" rel="stylesheet">
+<script src="angular.min.js"></script>
+<script src="iframe_app.js"></script>
+<script src="foundation_sites_iframe_controller.js"></script>
+<script src="modernizr.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style class="ng-binding">.iframe-body{margin-top:2rem;} .box {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 25px;
+  display: block;
+  margin-top: 60px; }
+
+.box-icon {
+  background-color: #569;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: -61px;
+  font-size: 3rem; }
+  .box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+
+.info h4 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+.info p {
+  color: #717171;
+  font-size: 16px;
+  padding-top: 10px; }
+.info a {
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.5s ease 0s; }
+  .info a:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.5s ease 0s; }
+
+    </style>
+  <style></style><meta class="foundation-mq-topbar"></head>
+  <body class="iframe-body">
+    <span ng-bind-html="building_block.html_content" class="ng-binding">    
+    <!-- this adds Foundation Icon Fonts!! -->
+    <link href="foundation-icons.css" rel="stylesheet">
+    
+    <div class="row">
+      <div class="medium-6 columns">
+        <div class="box">
+          <div class="box-icon">
+            <span class="fi-telephone"></span>
+          </div>
+          <div class="info">
+            <h4 class="text-center">Title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+            <a href="http://zurb.com/building-blocks/building-block-templates/foundation-5.html#" class="button">Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="medium-6 columns">
+        <div class="box">
+          <div class="box-icon">
+              <span class="fi-mail"></span>
+          </div>
+          <div class="info">
+            <h4 class="text-center">Title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+            <a href="http://zurb.com/building-blocks/building-block-templates/foundation-5.html#" class="button">Link</a>
+          </div>
+        </div>
+      </div>
+    </div></span>
+
+    <script src="jquery.min.js"></script>
+    <script src="foundation.js"></script>
+
+    <script>
+      $(function(){ $(document).foundation(); });
+      $(document).ready(function(){
+        // disable default behavior for links - prevents iframe logging to
+        // browsing history, requiring multiple back-button clicks to go back one page
+        $('.iframe-body a[href=#]').click(function(e) {
+          e.preventDefault();
+        });
+      });
+    </script>
+  
+
+<script>$(document).ready(function(){})</script></body></html>
