@@ -503,13 +503,21 @@
 
   .logo {
     width: 270px;
-    margin-top: -2.6rem; } 
+    margin-top: -2.6rem; } S
 
   .top-bar-section ul li > a{
     font-size: 2rem;
     }
 
   .overlay p {
+    top: 35%;
+  }
+
+  .overlay .text {
+  top: 35%;
+  }
+
+  .arrow-down {
     top: 35%;
   }
 }
