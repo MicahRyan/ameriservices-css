@@ -198,6 +198,8 @@ nav.top-bar {
   padding: 0 3rem;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 /* Services */
 .box {
   border-radius: 3px;
@@ -238,6 +240,8 @@ nav.top-bar {
     transition: all 0.5s ease 0s; }
 
 
+=======
+>>>>>>> Add hover icon to hero image.
 /* Hang */
 @-webkit-keyframes hvr-hang {
   0% {
@@ -314,6 +318,8 @@ nav.top-bar {
   animation-direction: normal, alternate;
 }
 
+=======
+>>>>>>> Icons
 /* Icon Push */
 @-webkit-keyframes hvr-icon-push-home {
   50% {
@@ -370,6 +376,7 @@ nav.top-bar {
 }
 
 /* Icon Push */
+<<<<<<< HEAD
 @-webkit-keyframes hvr-icon-push-about {
   50% {
     -webkit-transform: scale(0.5);
@@ -425,6 +432,8 @@ nav.top-bar {
 }
 
 /* Icon Push */
+=======
+>>>>>>> Icons
 @-webkit-keyframes hvr-icon-push-service {
   50% {
     -webkit-transform: scale(0.5);
