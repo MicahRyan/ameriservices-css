@@ -17,8 +17,8 @@
   margin: 0px;
 }
 .columns-content {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   float: left;
 }
 .menu {
@@ -271,6 +271,30 @@ nav.top-bar {
 .large-2 h3 {
   text-align: center;
 }
+
+.centered-text {
+  text-align: center;
+}
+
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #777;
+}
+
+.move-right {
+  position: relative;
+  text-align: right;
+}
+
+.quote {
+  border-radius: 5px;
+}
+
+.quote p {
+  font-weight: 300;
+}
+
 
 /* Hang */
 
@@ -571,6 +595,38 @@ nav.top-bar {
   .features .columns {
     margin-bottom: 5rem;
   }
+
+  .quote p {
+    padding-left: 20px;
+  }
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
 }
 @media only screen and (min-width: 40.063em) {
   .footer p {
