@@ -708,16 +708,12 @@ nav.top-bar
 
 /** Menu Font Media Query**/
 
-@media only screen and (max-width:120em)
+@media only screen and (max-width: 1025px)
 {
     .top-bar-section ul li > a
     {
         font-size: 1rem;
     }
-}
-
-@media only screen and (max-width: 1025px)
-{
     .top-bar
     {
         height: 4rem;
