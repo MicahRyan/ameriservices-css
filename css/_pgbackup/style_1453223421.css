@@ -120,13 +120,6 @@ nav.top-bar {
 .card .image img {
   border-radius: 2px 2px 0 0;
 }
-.panel-underline {
-  border-bottom: 2px solid #010f14;
-  border-radius: 5px;
-  background-color: #03212e;
-  padding: 5px 15px;
-  color: #fff;
-}
 .footer {
   background-color: #03212e;
   text-align: center;
@@ -278,24 +271,30 @@ nav.top-bar {
 .large-2 h3 {
   text-align: center;
 }
+
 .centered-text {
   text-align: center;
 }
+
 .quote-marks {
   font-size: 100px;
   font-family: Garamond;
   color: #777;
 }
+
 .move-right {
   position: relative;
   text-align: right;
 }
+
 .quote {
   border-radius: 5px;
 }
+
 .quote p {
   font-weight: 300;
 }
+
 
 /* Hang */
 
@@ -475,7 +474,6 @@ nav.top-bar {
 }
 
 /* Icon Push */
-
 @-webkit-keyframes hvr-icon-push-service {
   50% {
     -webkit-transform: scale(0.5);
@@ -597,10 +595,12 @@ nav.top-bar {
   .features .columns {
     margin-bottom: 5rem;
   }
+
   .quote p {
     padding-left: 20px;
   }
 }
+
 .student {
   margin-left: 25px;
   margin-bottom: 80px;
@@ -627,6 +627,7 @@ nav.top-bar {
   font-weight: 400;
   color: #777;
 }
+}
 @media only screen and (min-width: 40.063em) {
   .footer p {
     text-align: left;
@@ -641,6 +642,8 @@ nav.top-bar {
   .footer .contact > i {
     margin-right: 1rem;
   }
+}
+@media only screen and (min-width: 40.063em) {
   .top-bar {
     height: 6rem;
     padding-top: 3rem;
@@ -655,6 +658,8 @@ nav.top-bar {
     width: 250px;
     margin-top: -2.3rem;
   }
+}
+@media only screen and (min-width: 40.063em) {
   .social-icons {
     top: -35px;
   }
