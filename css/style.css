@@ -1,4 +1,5 @@
 /* Animated */
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -14,54 +15,47 @@
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
-
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
 /* Fade In */
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
-
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -92,6 +86,9 @@
   padding-right: 4rem;
   float: left;
 }
+
+/* Menu */
+
 .menu {
   z-index: 200;
   position: fixed;
@@ -107,6 +104,9 @@ nav.top-bar.expanded {
 }
 nav.top-bar {
   transition: height .3s ease-in-out;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #0078a0;
 }
 
 /* Banner */
@@ -253,14 +253,24 @@ nav.top-bar {
   font-size: 16px;
   font-variant: small-caps;
 }
+
+/* Button */
+
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+  background-color: #007095;
+  color: #fff;
+}
 .box-icon .fa {
-  transform: translate(70%,30%);
+  transform: translate(70%, 30%);
   color: #fff;
 }
 .round-icon .fa {
   transform: translateY(25%);
   color: #fff;
 }
+
+/* Accordion */
+
 .accordion .accordion-navigation > a, .accordion dd > a {
   background: rgba(232, 232, 232, 0.38);
   padding-left: 6rem;
@@ -277,9 +287,6 @@ button, .button {
   padding: 2em;
   text-align: center;
 }
-
-/* Accordion */
-
 .accordion dl, .accordion-list {
   margin-bottom: 0rem;
 }
