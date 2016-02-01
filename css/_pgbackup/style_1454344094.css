@@ -73,9 +73,6 @@
 .row {
   max-width: 100%;
 }
-#who-row {
-  margin-bottom: 40px;
-}
 .full {
   margin: 0px;
   max-width: 100%;
@@ -99,8 +96,8 @@
 }
 .logo {
   width: 130px;
-  margin-left: 10%;
-  padding: 8px;
+  margin-left: 5px;
+  padding: 5px;
 }
 nav.top-bar.expanded {
   height: 250px;
@@ -110,7 +107,6 @@ nav.top-bar {
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: #0078a0;
-  border-bottom: 2px solid hsla(195, 100%, 20%, 1);
 }
 
 /* Banner */
@@ -136,12 +132,10 @@ nav.top-bar {
   color: #fff;
   text-align: center;
   position: relative;
-  top: 75%;
+  top: 57%;
   -webkit-transform: translateY(-300%);
   -ms-transform: translateY(-300%);
   transform: translateY(-300%);
-  width: 65%;
-  margin: 0 auto;
 }
 
 /* Overlay */
@@ -267,7 +261,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   color: #fff;
 }
 .box-icon .fa {
-  transform: translate(80%, 30%);
+  transform: translate(70%, 30%);
   color: #fff;
 }
 .round-icon .fa {
@@ -481,12 +475,6 @@ button, .button {
 .footer-links li {
   margin-top: .5em;
 }
-.footer-links li a {
-  transition: color 0.3s ease;
-}
-.footer-links li a:hover {
-  color: #00ADE7;
-}
 .column-wrapper {
   margin-left: 4%;
 }
@@ -571,8 +559,6 @@ button, .button {
   font-size: 100px;
   font-family: Garamond;
   color: #777;
-  text-align: center;
-  text-align: -webkit-center;
 }
 .move-right {
   position: relative;
@@ -950,12 +936,10 @@ button, .button {
 .student .photo {
   background-color: #ccc;
   border-radius: 100px;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   float: left;
   margin-right: 15px;
-  background: url("http://www.orartswatch.org/wp-content/uploads/2012/09/headshot-crop.jpg") no-repeat center center;
-  background-size: cover;
 }
 .student p {
   position: relative;
@@ -986,7 +970,7 @@ button, .button {
     margin-right: 1rem;
   }
   .top-bar {
-    height: 7rem;
+    height: 6rem;
     padding-top: 3rem;
     position: relative;
   }
