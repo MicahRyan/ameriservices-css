@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*NAVIGATION BAR*/
 .top-bar {
-  background: #F7F7F7;
+  background: #F7F7F7 !important;
   box-shadow: 2px 2px 2px #1D1D1D;
 }
 
