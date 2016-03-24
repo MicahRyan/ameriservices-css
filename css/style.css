@@ -24,6 +24,24 @@ if it's not present, don't show loader */
   background: url(../img/squares.svg) center no-repeat #fff;
 }
 
+/*HEADLINE TEXT*/
+h1, h2, h3, h4, h5, h6 {
+  color: #797979;
+}
+/*NAVIGATION BAR*/
+.top-bar {
+  background: #F7F7F7;
+  box-shadow: 2px 2px 2px #1D1D1D;
+}
+
+.top-bar-section ul li a {
+  color: #797979;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+  color: #797979;
+}
+
 /* Animated */
 
 .animated {
@@ -85,6 +103,83 @@ if it's not present, don't show loader */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+/*Slide In Left*/
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*Slide In Right*/
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
 }
 
 /* Hero Banner */
@@ -194,8 +289,8 @@ nav.top-bar {
   transition: height .3s ease-in-out;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: #0078a0;
-  border-bottom: 2px solid hsla(195, 100%, 20%, 1);
+  background: rgba(169, 169, 169, 0.73);
+  border-bottom: 2px solid rgba(148, 148, 148, 0.91);
 }
 
 /* Banner */
@@ -562,16 +657,16 @@ button, .button {
 /* Footer */
 
 .footer {
-  background-color: #03212e;
+  background-color: #F7F7F7;
   padding: 2rem 4rem;
   text-align: center;
-  color: #fff;
+  color: #797979;
 }
 .footer i {
   font-size: 100px;
 }
 .footer h4 {
-  color: #fff;
+  color: #797979;
   font-size: 1em;
   font-weight: 400;
   text-transform: uppercase;
@@ -581,7 +676,7 @@ button, .button {
 .footer p, .footer a {
   font-weight: 300;
   font-size: .8em;
-  color: #fff;
+  color: #797979;
 }
 .footer-spacing {
   padding: 0 40px;
