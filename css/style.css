@@ -34,6 +34,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 2px 2px 2px #1D1D1D;
 }
 
+.top-bar .toggle-topbar.menu-icon a span::after {
+  box-shadow: 0 0 0 1px #797979, 0 7px 0 1px #797979, 0 14px 0 1px #797979;
+}
+
+.top-bar.expanded .title-area {
+  background: #545454;
+}
+
 .top-bar-section ul li a {
   color: #797979;
 }
